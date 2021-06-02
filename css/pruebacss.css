@@ -1,0 +1,173 @@
+body main .agrandar-foto {
+  height: 350px;
+  width: 100%;
+  background-image: url(../images/Institucional1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: center; }
+
+body main section #container-institucional {
+  position: relative;
+  background: linear-gradient(to left, orangered, yellow);
+  height: 40%;
+  margin-top: 30px;
+  padding: 30px; }
+  body main section #container-institucional .title-section {
+    position: absolute;
+    top: -34px; }
+  body main section #container-institucional article .interlineado {
+    line-height: 1.6; }
+  body main section #container-institucional article .pruebaagrandar {
+    font-size: 130%;
+    padding-bottom: 10px; }
+  body main section #container-institucional article .colorlila {
+    color: black;
+    font-weight: bold; }
+
+body footer .footer-institucional {
+  margin-top: 200px;
+  text-decoration: none; }
+  body footer .footer-institucional .deco {
+    text-decoration: none;
+    color: black; }
+
+body main .portada-porfolio {
+  height: 350px;
+  width: 100%;
+  background-image: url(../images/impresion-offset.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body .container-main {
+  margin-left: 300px; }
+
+body main .achicar {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Crimson Text', serif;
+  padding-top: 150px; }
+  body .top-bar {
+    text-align: right;
+    padding-bottom: 25px;
+    padding-top: 25px; }
+    body .top-bar ul {
+      list-style: none; }
+      body .top-bar ul li {
+        display: inline-block;
+        margin-left: 20px; }
+  body header {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    body header .wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      padding-top: 150px; }
+    body header #main-menu {
+      text-align: right; }
+      body header #main-menu ul {
+        list-style: none;
+        background: #000000; }
+        body header #main-menu ul li {
+          display: inline-block;
+          padding: 5px 30px;
+          position: relative;
+          font-size: 20px; }
+          body header #main-menu ul li .last {
+            padding-right: 0; }
+          body header #main-menu ul li :hover {
+            visibility: visible;
+            opacity: 1; }
+            body header #main-menu ul li :hover .submenu {
+              visibility: visible;
+              opacity: 1; }
+          body header #main-menu ul li a {
+            color: #ffffff;
+            text-decoration: none; }
+            body header #main-menu ul li a :hover {
+              opacity: 0.5; }
+      body header #main-menu .submenu {
+        position: absolute;
+        text-align: left;
+        left: 0;
+        top: 37px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s;
+        background: #fff;
+        color: #000;
+        border: 1px solid #000;
+        z-index: 1; }
+        body header #main-menu .submenu a {
+          color: #000000; }
+    body header .top {
+      position: relative;
+      background-color: #000000; }
+      body header .top .logo {
+        max-width: 180px;
+        position: absolute;
+        left: 0;
+        top: -50px; }
+        body header .top .logo img {
+          max-width: 100%; }
+  body main .fluidMedia {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden; }
+    body main .fluidMedia iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  body main .galeria-index {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    flex-basis: 100px;
+    width: 200px;
+    height: 200px; }
+  body footer {
+    margin-top: 40px;
+    position: relative; }
+    body footer #footer-menu {
+      text-align: right;
+      background-color: #000000; }
+      body footer #footer-menu ul {
+        list-style: none;
+        background: #000000; }
+        body footer #footer-menu ul li {
+          display: inline-block;
+          padding: 5px 30px;
+          position: relative;
+          font-size: 20px; }
+          body footer #footer-menu ul li .last {
+            padding-right: 0; }
+          body footer #footer-menu ul li a {
+            color: #ffffff;
+            text-decoration: none; }
+            body footer #footer-menu ul li a :hover {
+              opacity: 0.5; }
+    body footer .infofooter {
+      text-align: right;
+      padding: 10px 0; }
+      body footer .infofooter ul {
+        list-style: none; }
+        body footer .infofooter ul li {
+          display: inline-block;
+          margin-left: 20px; }

@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo-container{
+    background-color: grey;
+}
+.titulo-index {
+    font-size: 20px;
+    text-align: center;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrapper.body {
+    padding-top: 150px;
+}
+
+
+#main-menu {
+    text-align: right;
+}
+
+#footer-menu ul,
+#main-menu ul {
+    list-style: none;
+    background: #000000;
+}
+
+#footer-menu ul li ,
+#main-menu ul li {
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    font-size: 20px;
+}
+
+#footer-menu ul li a,
+#main-menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer-menu ul li a:hover,
+#main-menu ul li a:hover {
+    opacity: 0.5;
+}
+
+#main-menu .submenu {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    top: 37px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+    background: #FFF;
+    color: #000;
+    border: 1px solid #000;
+    z-index: 1;
+}
+
+#main-menu .submenu a {
+    color: #000000;
+}
+
+#main-menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+header.top {
+    position: relative;
+    background-color: #000000;
+}
+
+
+
+/* Footer */
+footer {
+    position: relative;
+
+}
+
+#footer-menu {
+    text-align: right;
+    background-color: #000000;
+}
+
+/* Iframe */
+
+.fluidMedia {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    height: 0;
+    overflow: hidden;
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.infofooter {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.infofooter ul {
+    list-style: none;
+}
+
+.infofooter ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#footer-menu ul li.last, #main-menu ul li.last  {
+    padding-right: 0;
+}
+
+/* TOP BAR */
+.top-bar ul {
+    list-style: none;
+}
+
+.top-bar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* index */
+
+/* institucional */
+
+.agrandar-foto {
+    height: 350px;
+    width: 100%;
+    background-image: url(../images/Institucional1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+}
+.separacion {
+    transform: rotate(-10deg);
+    transform: skewY(-10deg);
+}
+
+.border-h1 {
+    border: solid 4px black;
+    padding: 0px 10px 0px 10px;
+    background-color: yellow;
+}
+
+.interlineado {
+    line-height: 1.6;
+}
+
+#container-institucional {
+    position: relative;
+    background: linear-gradient(to left,orangered , yellow);
+    height: 40%;
+    margin-top: 30px;
+    padding: 30px;
+}
+#container-institucional .title-section {
+    position: absolute;
+    top: -34px;
+}
+
+.pruebaagrandar {
+    font-size: 130%;
+    padding-bottom: 10px;
+}
+
+.colorlila {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.footer-institucional {
+    margin-top: 200px;
+    text-decoration: none;
+}
+
+.deco {
+    text-decoration: none;
+    color: black;
+}
+
+/*portfolio*/
+.portada-portfolio {
+    height: 350px;
+    width: 100%;
+    background-image: url(../images/impresion-offset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-main{
+    margin-left: 300px;
+}
+
+/*diseño*/
+.achicar {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+/*prueba js en institucional*/
+
+.wow.slideInLeft {
+    visibility: hidden;
+}
+
+/*Terceros*/
+.titulo-terceros {
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.titulo__color {
+    text-align: center;
+    color: white;
+}
+
+.tabla-fondo {
+    background-color: yellowgreen;
+}
+
+.tabla__center {
+    text-align: center;
+    padding-left: 29%;
+}

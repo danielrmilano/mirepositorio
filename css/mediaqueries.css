@@ -1,0 +1,135 @@
+@media (min-width:320px) and (max-width:320) {
+
+    .topbar{
+        width: 100%;
+        padding: 0px;
+    }
+    header{
+        width: 100%;
+    }
+    main {
+        height: 74vh;
+    }
+    .main {
+        width: 100%;
+    }
+    .infofooter {
+        width: 100%;
+        font-size: 60px;
+    }
+
+    .top-bar {
+        text-align: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        font-size: 10px;
+    }
+
+    /* Logo */
+    header.top .logo {
+        max-width: 80px;
+        position: absolute;
+        left: 0;
+        top: -50px;
+    }
+        
+    header.top .logo img {
+        max-width: 100%;
+    }
+    .galeria-index {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 10vh;
+    }
+
+    /*institucional*/
+    .footer-institucional {
+        margin-top: -130px;
+        text-decoration: none;
+    } 
+    
+}
+
+@media (min-width:768px) {
+
+    .top-bar {
+        text-align: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    /* Logo */
+    header.top .logo {
+        max-width: 120px;
+        position: absolute;
+        left: 0;
+        top: -50px;
+    }
+        
+    header.top .logo img {
+        max-width: 100%;
+    }
+
+    main {
+        margin-bottom: 350px;
+    }
+    
+    .galeria-index {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 14vh;
+    }   
+
+    /*institucional*/
+    .footer-institucional {
+        margin-top: 130px;
+        text-decoration: none;
+    } 
+}
+
+@media (min-width:1024px) {
+
+    .top-bar {
+        text-align: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    /* Logo */
+    header.top .logo {
+    max-width: 180px;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    }
+
+    header.top .logo img {
+    max-width: 100%;
+    }
+
+    main {
+        margin-bottom: 550px;
+    }
+
+    .galeria-index {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 24vh;
+    }
+
+    footer {
+        margin-top: 87px;
+    }
+
+    /*institucional*/
+    .footer-institucional {
+        margin-top: 250px;
+        text-decoration: none;
+    }
+}
